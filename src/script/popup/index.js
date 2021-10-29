@@ -65,21 +65,34 @@ export const createPopup = () => {
       </p>
       <br/>
       <p>
-        안정적인 서비스 제공을 위해 KiloX Wallet 서비스에 집중하기로 결정하게 되었습니다.
+        안정적인 서비스 제공을 위해 <span style="color: blue;">KiloX Wallet</span> 서비스에 집중하기로 결정하게 되었습니다.
       </p>
       <br/>
+      <p>
+        현재 버전 차이로 인한 출금 사고를 미연에 방지하고자 Firston Wallet 출금 기능을 중지한 상태이며
+        잔여 수량이 남으신 고객님께서는 아래 텔레그램 KiloX 고객센터로 연락을 주시면 원하시는 TON 주소로 송금 처리해 드리도록 하겠습니다.
+      </p>
+      <p style="font-size: 0.84em; color: red; margin-top: 6px;">
+        * 잔여 수량이 ≈ 0.1 이하이신 고객님께서는 톤 블록체인의 송금 수수료로 인한 잔액 부족으로 송금이 불가할 수 있음을 미리 말씀드립니다.
+      </p>
+      <br/>
+      <a style="display: flex; align-content: center; cursor: pointer;" href="https://t.me/kilox_cs" target="blank">
+          <img style="width: 24px; height: 24px;" src="https://t1.daumcdn.net/cfile/tistory/99D3C63B5E8207CC10"/>
+          <span style="color: rgba(76,183,227,1); margin-left: 6px; font-weight: bold;">KiloX 고객센터</span>
+      </a>
+      <br/>
+      <!--
       <ul>
         <li>
           <b style="font-weight: bold; color: #d35400; margin-right: 30px;">종료 일자</b>
-          <!-- <span><b style="font-weight: bold;">2021</b>년 <b style="font-weight: bold;">2</b>월 <b style="font-weight: bold;">5</b>일</span> -->
-          <span>추후 공지</span>
+          <span><b style="font-weight: bold;">2021</b>년 <b style="font-weight: bold;">2</b>월 <b style="font-weight: bold;">5</b>일</span>
         </li>
       </ul>
       <br/>
       <p>
-        <!-- 해당 종료 일자 전까지 -->
         전용 애플리케이션을 설치하시고 Firston Wallet에 있는 자산을 KiloX Wallet으로 옮기셔서 이용해 주시기 바랍니다.
       </p>
+      -->
       <p>
         감사합니다.
       </p>
@@ -101,7 +114,9 @@ export const createPopup = () => {
         <span style="margin: 0 2em;">for</span>
         <img style="width: 13em; height: auto;" src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" />
       </div>
+      <!--
       <p style="font-size: 0.85em; margin-top: 0.8em; text-align: center; color: #1e90ff; ">🚀 iOS용 정식 버전 출시하였습니다</p>
+      -->
     `;
 
   /*
